@@ -3,3 +3,9 @@ resource "local_file" "pelli_pila" {
   filename = "naa_file.txt"
   content  = "నమస్కారం! ఇది టెర్రాఫార్మ్ ద్వారా సృష్టించిన ఫైల్."
 }
+resource "local_file" "naa_file_sample" {
+  filename = "naa_file.txt"
+  
+  # ఇక్కడ మనం రెండు లైన్ల సమాచారం ఇస్తున్నాము
+  content  = "నమస్కారం! ఇది మొదటి లైన్.\nఇది మనం కొత్తగా చేర్చిన రెండో లైన్!"
+}
