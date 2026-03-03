@@ -19,3 +19,4 @@ resource "local_file" "naa_file_sample" {
     ఇది ఇప్పుడు మనం కొత్తగా కలిపిన మూడో లైన్!
   EOT
 }
+//new line addted 
